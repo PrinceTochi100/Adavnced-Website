@@ -297,6 +297,7 @@ nav{
     /*opacity: 0;*/
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
+    cursor: pointer;
 }
 
 .timeline-item.animate{    
@@ -331,9 +332,7 @@ nav{
 }
 
 .timeline-item:last-child::after{
-
     display: none;
-
 }
 
 .timeline-content{
